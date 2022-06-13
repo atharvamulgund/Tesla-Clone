@@ -1,0 +1,56 @@
+
+.left-btn{
+    background-color: rgba(23, 26, 32, 0.8);
+    color: #fff;
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 200px;
+   height: 50px;
+   border-radius: 36px;
+   opacity: 0.8;
+   cursor: pointer;
+}
+.right-btn{
+    font-size: 14px;
+    background-color: #fff;
+    color: rgba(23, 26, 32, 0.8);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 200px;
+   height: 50px;
+    border-radius: 36px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.down-arrow{
+    overflow-x: hidden;
+    animation: bounce infinite 1.8s ease-in-out;
+}
+.down-arrow::before{
+    transform: rotate(90deg);
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+@keyframes bounce{
+    0%{
+        
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+@media screen and (max-width:786px) {
+    .btn-group{
+        flex-direction: column;
+    }
+}
