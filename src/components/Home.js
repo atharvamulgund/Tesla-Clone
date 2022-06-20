@@ -7,7 +7,7 @@ const Home = () => {
         <Section 
         title="Model-s"
         description="Order Online for Touchless Delivery"
-        image="../images/model-s.jpg"
+        image="https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD"
         alt="model-s"
         leftbtn="Custom"
         rightbtn="Existing inventory"
@@ -23,7 +23,7 @@ const Home = () => {
         <Section 
         title="Model-y"
         description="Order Online for Touchless Delivery"
-        image="../images/model-y.jpg"
+        image="https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70"
         alt="model-y"
         leftbtn="Custom"
         rightbtn="Existing inventory"
@@ -31,7 +31,7 @@ const Home = () => {
         <Section 
         title="Model-3"
         description="Order Online for Touchless Delivery"
-        image="../images/model-3.jpg"
+        image="https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD"
         alt="model-3"
         leftbtn="Custom"
         rightbtn="Existing inventory"
