@@ -2,7 +2,7 @@ import React from 'react'
 import './section.css'
 import  Fade  from "react-reveal/Fade";
 import carInfo from './carInfo';
-const Section = (props,image,alt,title,description,leftbtn,) => {
+const Section = () => {
     return(
         <>
         {carInfo.map((index)=>{
