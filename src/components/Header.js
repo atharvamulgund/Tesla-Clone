@@ -19,8 +19,8 @@ const Header = (props) => {
             <a href="#"> Model 3</a>
         </div>
         <div className="right-menu flex gap-4 font-semibold">
-          <a href="#">Shop</a>
-          <a href="#">Tesla Account</a>
+          <span className='links'><a href="#">Shop</a>
+          <a href="#">Tesla Account</a></span>
           <button  onClick={()=> handleToggle()}><MenuIcon /></button>
           <div className={burgerStatus? "nav-menu open": "nav-menu"}   >
            <button onClick={()=> handleToggle()}><CloseIcon></CloseIcon></button>

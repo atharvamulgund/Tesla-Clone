@@ -1,6 +1,9 @@
 @media screen and (max-width:786px){
-    .center-menu{
-        display: none;
+    .container-header{
+        justify-content: space-between;
+    }
+    .center-menu, .links{
+        display: none !important;
     }
     .nav-menu{
         width: 100% !important;
