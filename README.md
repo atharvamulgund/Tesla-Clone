@@ -1,5 +1,5 @@
 
-## Screenshots
+
 
 ![image](https://atharvamulgund.netlify.app/Images/Tesla-Clone.jpg)
 
