@@ -1,7 +1,7 @@
 const carInfo = [
     {
         "id": 0,
-        "title": "Model S",
+        "title": "ModelS",
         "description": "Order Online for Touchless Delivery",
         "image": "../images/model-s.jpg",
         "range": "390",
@@ -12,7 +12,7 @@ const carInfo = [
     },
     {
         "id": 1,
-        "title": "Model 3",
+        "title": "Model3",
         "description": "Order Online for Touchless Delivery",
         "image": "../images/model-3.jpg",
         "range": "400",
@@ -23,7 +23,7 @@ const carInfo = [
     },
     {
         "id": 2,
-        "title": "Model X",
+        "title": "ModelX",
         "description": "Order Online for Touchless Delivery",
         "image": "../images/model-x.jpg",
         "range": "350",
@@ -34,7 +34,7 @@ const carInfo = [
     },
     {
         "id": 3,
-        "title": "Model Y",
+        "title": "ModelY",
         "description": "Order Online for Touchless Delivery",
         "image": "../images/model-y.jpg",
         "range": "410",
@@ -45,14 +45,14 @@ const carInfo = [
     },
     {
         "id": 3,
-        "title": "Solar Panels",
+        "title": "SolarPanels",
         "description": "Order Online for Touchless Delivery",
         "image": "../images/solar-panel.jpg",
         'alt':"solar-panel"
     },
     {
         "id": 5,
-        "title": "Solar Roof",
+        "title": "SolarRoof",
         "description": "Order Online for Touchless Delivery",
         "image": "../images/solar-roof.jpg",
         'alt':"Solar Roof"

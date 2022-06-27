@@ -1,6 +1,8 @@
 import React from 'react'
 import './section.css'
 import carInfo from './carInfo';
+import {Routes , Route,Link} from 'react-router-dom'
+import ModelPage from './ModelPage';
 const Section = () => {
     return(
         <>
@@ -18,7 +20,9 @@ const Section = () => {
                 
                 <div className="btn-group absolute bottom-0 left-0 right-0 flex justify-center items-center  mb-20 gap-5 uppercase ">
                     <div className="left-btn">
-                        <button>Custom</button>
+                        <Link to={`/ModelPage/${index.title}`} >  
+                             <button>Custom</button>
+                        </Link>
                     </div>
                     <div className="right-btn">Existing inventory</div>
                 </div>
